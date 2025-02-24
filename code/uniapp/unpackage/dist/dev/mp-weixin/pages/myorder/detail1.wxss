@@ -1,0 +1,65 @@
+
+.orderDetail {
+	padding: 15px;
+}
+.payment {
+	display: flex;
+	align-items: center;
+	margin-bottom: 20px;
+}
+.payment icon {
+	margin-right: 10px;
+}
+.text {
+	flex: 1;
+}
+.big {
+	font-size: 20px;
+	font-weight: bold;
+	margin-bottom: 5px;
+}
+.small {
+	font-size: 14px;
+	color: #888;
+}
+.info {
+	margin-bottom: 20px;
+}
+.viewOut {
+	background-color: #fff;
+	border-radius: 10px;
+	padding: 15px;
+	margin-bottom: 15px;
+	box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+.title {
+	font-size: 16px;
+	font-weight: bold;
+	margin-bottom: 10px;
+}
+.body {
+	font-size: 14px;
+}
+.row {
+	margin-bottom: 10px;
+}
+.goodsList {
+	background-color: #fff;
+	border-radius: 10px;
+	padding: 15px;
+	box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+	margin-bottom: 25rpx;
+}
+.goodsList .title {
+	font-size: 16px;
+	font-weight: bold;
+	margin-bottom: 10px;
+}
+.goodsList .body .row {
+	font-size: 14px;
+	margin-bottom: 10px;
+}
+.u-button {
+	flex-shrink: 0;
+}
+

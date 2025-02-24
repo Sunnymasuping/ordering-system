@@ -1,0 +1,60 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/orders/orders",
+    "pages/me/me",
+    "pages/login/login",
+    "pages/register/register",
+    "pages/dish/dish",
+    "pages/edit/edit",
+    "pages/myorder/myorder",
+    "pages/myorder/detail1",
+    "pages/myorder/detail2",
+    "pages/myorder/detail3",
+    "pages/review/review",
+    "pages/review/reply",
+    "pages/myreview/myreview",
+    "pages/search/search",
+    "pages/paypage/paypage"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "江湖菜馆",
+    "navigationBarBackgroundColor": "#ff7f50",
+    "backgroundColor": "#F8F8F8",
+    "enablePullDownRefresh": true
+  },
+  "tabBar": {
+    "backgroundColor": "#fff",
+    "selectedColor": "#ff7f50",
+    "color": "#666",
+    "list": [
+      {
+        "iconPath": "static/icons/home.png",
+        "selectedIconPath": "static/icons/homeac.png",
+        "text": "首页",
+        "pagePath": "pages/index/index"
+      },
+      {
+        "iconPath": "static/icons/food.png",
+        "selectedIconPath": "static/icons/foodac.png",
+        "text": "点餐",
+        "pagePath": "pages/dish/dish"
+      },
+      {
+        "iconPath": "static/icons/order.png",
+        "selectedIconPath": "static/icons/orderac.png",
+        "text": "订单",
+        "pagePath": "pages/myorder/myorder"
+      },
+      {
+        "iconPath": "static/icons/me.png",
+        "selectedIconPath": "static/icons/meac.png",
+        "text": "个人",
+        "pagePath": "pages/me/me"
+      }
+    ]
+  },
+  "usingComponents": {}
+}

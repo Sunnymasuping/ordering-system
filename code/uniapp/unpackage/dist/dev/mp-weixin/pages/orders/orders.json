@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "订单",
+  "enablePullDownRefresh": true,
+  "usingComponents": {
+    "u-action-sheet": "/uni_modules/uview-ui/components/u-action-sheet/u-action-sheet",
+    "u-button": "/uni_modules/uview-ui/components/u-button/u-button"
+  }
+}

@@ -1,0 +1,147 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+
+			}
+		},
+		{
+			"path": "pages/orders/orders",
+			"style": {
+				"navigationBarTitleText": "订单",
+				"enablePullDownRefresh": true
+			}
+		},
+		{
+			"path": "pages/me/me",
+			"style": {
+				"navigationBarTitleText": "我的主页",
+				"enablePullDownRefresh": true
+			}
+		},
+		{
+			"path": "pages/login/login",
+			"style": {
+				"navigationBarTitleText": "登录"
+			}
+		},
+		{
+			"path": "pages/register/register",
+			"style": {
+				"navigationBarTitleText": "注册"
+			}
+		},
+		{
+			"path": "pages/dish/dish",
+			"style": {
+				"navigationBarTitleText": "点餐"
+			}
+		},
+		{
+			"path": "pages/edit/edit",
+			"style": {
+				"navigationBarTitleText": "编辑个人信息"
+			}
+		},
+		{
+			"path": "pages/myorder/myorder",
+			"style": {
+				"navigationBarTitleText": "我的订单",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/myorder/detail1",
+			"style": {
+				"navigationBarTitleText": "已支付",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/myorder/detail2",
+			"style": {
+				"navigationBarTitleText": "已取消",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/myorder/detail3",
+			"style": {
+				"navigationBarTitleText": "已完成",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/review/review",
+			"style": {
+				"navigationBarTitleText": "留言板",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/review/reply",
+			"style": {
+				"navigationBarTitleText": "留言回复",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/myreview/myreview",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/search/search",
+			"style": {
+				"navigationBarTitleText": "搜索"
+			}
+		},
+		{
+			"path": "pages/paypage/paypage",
+			"style": {
+				"navigationBarTitleText": "确认订单"
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "江湖菜馆",
+		"navigationBarBackgroundColor": "#ff7f50",
+		"backgroundColor": "#F8F8F8",
+		"enablePullDownRefresh": true
+	},
+	"tabBar": {
+		"backgroundColor": "#fff",
+		"selectedColor": "#ff7f50",
+		"color": "#666",
+		"list": [{
+				"iconPath": "static/icons/home.png",
+				"selectedIconPath": "static/icons/homeac.png",
+				"text": "首页",
+				"pagePath": "pages/index/index"
+			},
+			{
+				"iconPath": "static/icons/food.png",
+				"selectedIconPath": "static/icons/foodac.png",
+				"text": "点餐",
+				"pagePath": "pages/dish/dish"
+			},
+			{
+				"iconPath": "static/icons/order.png",
+				"selectedIconPath": "static/icons/orderac.png",
+				"text": "订单",
+				"pagePath": "pages/myorder/myorder"
+			},
+			{
+				"iconPath": "static/icons/me.png",
+				"selectedIconPath": "static/icons/meac.png",
+				"text": "个人",
+				"pagePath": "pages/me/me"
+			}
+		]
+	},
+	"uniIdRouter": {}
+}

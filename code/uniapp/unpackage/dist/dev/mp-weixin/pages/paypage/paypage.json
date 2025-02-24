@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "确认订单",
+  "usingComponents": {
+    "goods-list": "/components/goods-list/goods-list",
+    "u-icon": "/uni_modules/uview-ui/components/u-icon/u-icon",
+    "car-layout": "/components/car-layout/car-layout"
+  }
+}

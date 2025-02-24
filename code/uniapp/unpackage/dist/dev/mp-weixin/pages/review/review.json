@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "留言板",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "u-rate": "/uni_modules/uview-ui/components/u-rate/u-rate"
+  }
+}
